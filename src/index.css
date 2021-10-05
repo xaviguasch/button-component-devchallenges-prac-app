@@ -1,13 +1,79 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+Display:wght@500&family=Ubuntu+Mono&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Ubuntu Mono', monospace; */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ==================================== */
+/* Custom properties and general styles */
+/* ==================================== */
+
+:root {
+  --ff-main: 'Ubuntu Mono', monospace;
+  --ff-secondary: 'Noto Sans Display', sans-serif;
+  --ff-terciary: 'Montserrat', sans-serif;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --fs-07: 0.438rem;
+  --fs-08: 0.5em;
+  --fs-09: 0.563em;
+  --fs-10: 0.625rem;
+  --fs-12: 0.75rem;
+  --fs-13: 0.813rem;
+  --fs-14: 0.875rem;
+  --fs-15: 0.938rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-22: 1.375rem;
+  --fs-24: 1.5rem;
+  --fs-26: 1.625rem;
+  --fs-28: 1.75rem;
+  --fs-30: 1.875em;
+  --fs-32: 2rem;
+  --fs-36: 2.25rem;
+  --fs-40: 2.5rem;
+  --fs-48: 3rem;
+  --fs-56: 3.5rem;
+  --fs-60: 3.75rem;
+  --fs-64: 4rem;
+  --fs-72: 4.5rem;
+  --fs-80: 5rem;
+  --fs-100: 6.25em;
+
+  --clr-black-text: hsla(0, 0%, 25%, 1);
+  --clr-blue-text: hsla(231, 99%, 62%, 1);
+
+  /* Primary */
+
+  --clr-blue: hsl(246, 80%, 60%);
+  --clr-orange: hsl(15, 100%, 70%);
+  --clr-soft-blue: hsl(195, 74%, 62%);
+  --clr-light-red: hsl(348, 100%, 68%);
+  --clr-lime-green: hsl(145, 58%, 55%);
+  --clr-violet: hsl(264, 64%, 52%);
+  --clr-soft-orange: hsl(43, 84%, 65%);
+
+  /* Neutral */
+
+  --clr-very-dark-blue: hsl(226, 43%, 10%);
+  --clr-dark-blue: hsl(235, 46%, 20%);
+  --clr-hover-dark-blue: hsla(236, 41%, 34%, 1);
+
+  --clr-desaturated-blue: hsl(235, 45%, 61%);
+  --clr-pale-blue: hsl(236, 100%, 87%);
+
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-black: hsla(0, 0%, 0%, 1);
 }
