@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+Display:wght@500&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Noto+Sans+Display:wght@500&family=Poppins:wght@500&family=Ubuntu+Mono&display=swap');
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Noto Sans Display', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu Mono', monospace; */
 
 *,
@@ -19,7 +20,8 @@ font-family: 'Ubuntu Mono', monospace; */
 :root {
   --ff-main: 'Ubuntu Mono', monospace;
   --ff-secondary: 'Noto Sans Display', sans-serif;
-  --ff-terciary: 'Montserrat', sans-serif;
+  --ff-tertiary: 'Montserrat', sans-serif;
+  --ff-quaternary: 'Poppins', sans-serif;
 
   --fw-regular: 400;
   --fw-medium: 500;
@@ -52,28 +54,46 @@ font-family: 'Ubuntu Mono', monospace; */
   --fs-80: 5rem;
   --fs-100: 6.25em;
 
-  --clr-black-text: hsla(0, 0%, 25%, 1);
+  /* Text */
+  --clr-black-text: hsla(0, 0%, 0%, 1);
+  --clr-dark-text: hsla(0, 0%, 25%, 1);
+  --clr-gray-1-text: hsla(0, 0%, 20%, 1);
+  --clr-gray-2-text: hsla(0, 0%, 31%, 1);
+  --clr-gray-3-text: hsla(0, 0%, 51%, 1);
+  --clr-greyed-out-text: hsla(0, 0%, 62%, 1);
   --clr-blue-text: hsla(231, 99%, 62%, 1);
 
-  /* Primary */
-
-  --clr-blue: hsl(246, 80%, 60%);
-  --clr-orange: hsl(15, 100%, 70%);
-  --clr-soft-blue: hsl(195, 74%, 62%);
-  --clr-light-red: hsl(348, 100%, 68%);
-  --clr-lime-green: hsl(145, 58%, 55%);
-  --clr-violet: hsl(264, 64%, 52%);
-  --clr-soft-orange: hsl(43, 84%, 65%);
-
-  /* Neutral */
-
-  --clr-very-dark-blue: hsl(226, 43%, 10%);
-  --clr-dark-blue: hsl(235, 46%, 20%);
-  --clr-hover-dark-blue: hsla(236, 41%, 34%, 1);
-
-  --clr-desaturated-blue: hsl(235, 45%, 61%);
-  --clr-pale-blue: hsl(236, 100%, 87%);
-
+  /* Backgrounds */
+  --clr-soft-grey: hsla(0, 0%, 88%, 1);
+  --clr-dark-grey: hsla(0, 0%, 68%, 1);
+  --clr-soft-blue: hsla(224, 100%, 58%, 0.1);
+  --clr-blue: hsla(231, 99%, 62%, 1);
+  --clr-blue-2: hsla(224, 100%, 58%, 1);
+  --clr-blue-3: hsla(223, 100%, 40%, 1);
+  --clr-dark-green: hsla(199, 18%, 33%, 1);
+  --clr-darkest-green: hsla(198, 35%, 17%, 1);
   --clr-white: hsl(0, 0%, 100%);
-  --clr-black: hsla(0, 0%, 0%, 1);
 }
+
+body {
+  background-color: var(--clr-white);
+  color: var(--clr-gray-2-text);
+  font-family: var(--ff-main);
+  font-size: var(--fs-16);
+  font-weight: var(--fw-regular);
+  line-height: 1.8333;
+  text-align: left;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ================== */
+/* Typography */
+/* ================== */
