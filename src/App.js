@@ -1,12 +1,17 @@
 import './App.css'
-import Button from './components/Button'
+import ButtonWrapper from './components/ButtonWrapper'
 
 function App() {
   return (
-    <div class='wrapper'>
-      <h1 class='title'>Buttons</h1>
-      <h1>React!!!?!!!</h1>
-      <Button></Button>
+    <div className='container'>
+      <h1 className='title'>Buttons</h1>
+
+      <div className='main-content'>
+        <div className='row'>
+          <ButtonWrapper descr='<Button />' />
+          <ButtonWrapper descr='&:hover, &:focus' background='dark-grey' />
+        </div>
+      </div>
     </div>
   )
 }

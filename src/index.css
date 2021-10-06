@@ -97,3 +97,48 @@ ul {
 /* ================== */
 /* Typography */
 /* ================== */
+
+.title {
+  font-family: var(--ff-quaternary);
+  font-size: var(--fs-24);
+  font-weight: var(--fw-medium);
+}
+
+.descriptor {
+  font-size: var(--fs-12);
+}
+
+/* ================== */
+/* Buttons & inputs */
+/* ================== */
+
+.btn {
+  background: var(--clr-soft-grey);
+  border: transparent;
+  border-radius: 0.5em;
+  cursor: pointer;
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-14);
+  font-weight: var(--fw-medium);
+  padding: 0.5em 1em;
+}
+
+/* ================== */
+/* Utility styles */
+/* ================== */
+
+.container {
+  padding: 3.3125em 5.1875em;
+}
+
+/* ================== */
+/* SECTIONS */
+/* ================== */
+
+.main-content {
+  margin-top: 1.75em;
+}
+
+.row {
+  display: flex;
+}
