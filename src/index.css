@@ -69,6 +69,7 @@ font-family: 'Ubuntu Mono', monospace; */
   --clr-soft-blue: hsla(224, 100%, 58%, 0.1);
   --clr-blue: hsla(231, 99%, 62%, 1);
   --clr-blue-2: hsla(224, 100%, 58%, 1);
+  --clr-blue-2-semi-trans: hsla(224, 100%, 58%, 0.1);
   --clr-blue-3: hsla(223, 100%, 40%, 1);
   --clr-dark-green: hsla(199, 18%, 33%, 1);
   --clr-darkest-green: hsla(198, 35%, 17%, 1);
@@ -113,14 +114,13 @@ ul {
 /* ================== */
 
 .btn {
-  background: var(--clr-soft-grey);
-  border: transparent;
+  border: 1px solid transparent;
   border-radius: 0.5em;
   cursor: pointer;
   font-family: var(--ff-secondary);
   font-size: var(--fs-14);
   font-weight: var(--fw-medium);
-  padding: 0.5em 1em;
+  padding: 0.5em 1.15em;
 }
 
 /* ================== */
@@ -137,6 +137,10 @@ ul {
 
 .main-content {
   margin-top: 1.75em;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.8125em;
 }
 
 .row {

@@ -1,3 +1,39 @@
 .btn.dark-grey {
   background: var(--clr-dark-grey);
 }
+
+.btn.soft-grey {
+  background: var(--clr-soft-grey);
+}
+
+.btn.blue {
+  background: var(--clr-blue);
+}
+
+.btn.white {
+  background: var(--clr-white);
+}
+
+.btn.blue-2-semi-trans {
+  background: var(--clr-blue-2-semi-trans);
+}
+
+.btn.border-none {
+  border-color: transparent;
+}
+
+.btn.border-blue {
+  border-color: var(--clr-blue);
+}
+
+.btn.dark-text {
+  color: var(--clr-dark-text);
+}
+
+.btn.blue-text {
+  color: var(--clr-blue);
+}
+
+.btn.white-text {
+  color: var(--clr-white);
+}
