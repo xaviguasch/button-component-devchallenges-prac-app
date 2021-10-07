@@ -10,6 +10,29 @@
   background: var(--clr-blue);
 }
 
+.btn.blue-2 {
+  background: var(--clr-blue-2);
+}
+
+.btn.blue-3 {
+  background: var(--clr-blue-3);
+}
+
+.btn.dark-green {
+  background: var(--clr-dark-green);
+}
+
+.btn.darkest-green {
+  background: var(--clr-darkest-green);
+}
+
+.btn.red {
+  background: var(--clr-red);
+}
+.btn.dark-red {
+  background: var(--clr-dark-red);
+}
+
 .btn.white {
   background: var(--clr-white);
 }
@@ -36,4 +59,16 @@
 
 .btn.white-text {
   color: var(--clr-white);
+}
+
+.btn.greyed-out-text {
+  color: var(--clr-greyed-out-text);
+}
+
+.btn.sm {
+  padding: 0.3em 0.6em;
+}
+
+.btn.lg {
+  padding: 1em 2.25em;
 }

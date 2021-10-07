@@ -3,9 +3,14 @@ import { ReactComponent as AddShoppingCartSVG } from '../add_shopping_cart_black
 
 const Button = (props) => {
   return (
-    <button className={`btn ${props.background} ${props.border} ${props.color}`}>
-      {!props.content ? 'Default' : props.content}
-    </button>
+    <div>
+      <button
+        className={`btn ${props.background} ${props.border} ${props.color} ${props.width}`}
+      >
+        {!props.content ? 'Default' : props.content}
+        {props.icon && <AddShoppingCartSVG fill='white' width='17px' />}
+      </button>
+    </div>
   )
 }
 

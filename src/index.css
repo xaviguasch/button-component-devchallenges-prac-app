@@ -71,6 +71,9 @@ font-family: 'Ubuntu Mono', monospace; */
   --clr-blue-2: hsla(224, 100%, 58%, 1);
   --clr-blue-2-semi-trans: hsla(224, 100%, 58%, 0.1);
   --clr-blue-3: hsla(223, 100%, 40%, 1);
+  --clr-red: hsla(0, 65%, 51%, 1);
+  --clr-dark-red: hsla(357, 100%, 30%, 1);
+
   --clr-dark-green: hsla(199, 18%, 33%, 1);
   --clr-darkest-green: hsla(198, 35%, 17%, 1);
   --clr-white: hsl(0, 0%, 100%);
@@ -121,6 +124,10 @@ ul {
   font-size: var(--fs-14);
   font-weight: var(--fw-medium);
   padding: 0.5em 1.15em;
+
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
 }
 
 /* ================== */
@@ -145,4 +152,5 @@ ul {
 
 .row {
   display: flex;
+  align-items: flex-end;
 }

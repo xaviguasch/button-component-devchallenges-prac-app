@@ -4,13 +4,17 @@
   align-items: flex-start;
   gap: 0.4em;
 
-  width: 250px;
+  width: 275px;
 }
 
-.descriptor {
+.descriptor.default {
   color: var(--clr-gray-1-text);
 }
 
 .descriptor.hover-color {
   color: var(--clr-gray-3-text);
+}
+
+.descriptor.black-text {
+  color: var(--clr-black-text);
 }
